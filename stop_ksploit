@@ -1,0 +1,7 @@
+#!/bin/bash
+inf='cat ./inf'
+airmon-ng stop $inf
+airbase-ng stop $inf
+ifconfig at0 down
+pkill dnsmasq
+rm ./inf

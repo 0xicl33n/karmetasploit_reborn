@@ -4,9 +4,7 @@ ksploit_reborn
 Karmetasploit Reborn
 
 
-WIP...
+WIP.
 
 
-blah blah blah?
-
-
+Doesnt work....yet :3

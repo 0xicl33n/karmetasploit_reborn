@@ -1,5 +1,5 @@
 load db_sqlite3
-db_create /root/karmetasploit/karma.db
+db_create ~/.msf/karma.db
 
 use auxiliary/server/browser_autopwn
 

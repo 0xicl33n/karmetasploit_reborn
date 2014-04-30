@@ -1,5 +1,6 @@
 #!/bin/bash
 inf=$('cat ./inf')
+echo "Stopping Karmetasploit.."
 airmon-ng stop $inf
 airbase-ng stop $inf
 ifconfig at0 down

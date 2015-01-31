@@ -19,7 +19,6 @@ Never tested, but should work
 
 
 Depends:
-
 <br><br>dnsmasq
 <br>Metasploit - Kali Linux
 <br>aircrack-ng - Kali Linux

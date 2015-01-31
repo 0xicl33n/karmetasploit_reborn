@@ -6,7 +6,7 @@ if [[ $# -eq 0 ]] ; then
     echo
     exit 0
 fi
-echo $1>./inf
+echo $1>/tmp/karminf
 airmon-ng start $1
 airbase-ng -P -C 30 -e "Free Public WiFi" -v $1
 ifconfig at0 up 10.0.0.1 netmask 255.255.255.0

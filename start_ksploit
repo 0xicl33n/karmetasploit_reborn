@@ -1,6 +1,6 @@
 #!/bin/bash
 if [[ $# -eq 0 ]] ; then
-    echo 'Karmetasploit Reborn 0.1'
+    echo 'Karmetasploit Reborn 0.2'
     echo
     echo 'Usage start_ksploit <interface>'
     echo
